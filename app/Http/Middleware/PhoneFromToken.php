@@ -21,7 +21,7 @@ class PhoneFromToken
           return $next($request);
         }
         return response()->json([
-            'code' => '204',
+            'code' => '51003',
             'message' => 'tel_not_set',
             'data' => '',
         ]);
